@@ -1,0 +1,25 @@
+{
+  "name": "odb-sample-large-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@netlify/functions": "^0.7.2",
+    "@nuxt/content": "^1.14.0",
+    "@nuxt/content-theme-docs": "^0.10.2",
+    "@nuxtjs/content": "^0.3.0",
+    "@nuxtjs/sanity": "^0.9.0",
+    "core-js": "^3.9.1",
+    "date-fns": "^2.21.1",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.0.1",
+    "postcss": "^8.2.8"
+  }
+}

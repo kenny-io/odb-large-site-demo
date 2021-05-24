@@ -1,0 +1,10 @@
+[build] 
+  publish = "dist"
+  command = ""
+
+[dev] 
+  publish = "dist"
+  command = ""
+
+[functions]
+  node_bundler = "esbuild"
