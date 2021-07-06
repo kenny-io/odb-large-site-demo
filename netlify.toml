@@ -8,3 +8,8 @@
 
 [functions]
   node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/.netlify/functions/fetch-routes/:splat"
+  status = 200
