@@ -1,10 +1,10 @@
 [build] 
   publish = "dist"
-  command = ""
+  command = "yarn generate"
 
 [dev] 
   publish = "dist"
-  command = ""
+  command = "ntl dev"
 
 [functions]
   node_bundler = "esbuild"
